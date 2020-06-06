@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_action_home"/>
+    <item
+        android:id="@+id/previous"
+        android:title="@string/previous_records"
+        android:icon="@drawable/ic_action_previous"/>
+    <item
+        android:id="@+id/others"
+        android:title="@string/other_people"
+        android:icon="@drawable/ic_action_others"/>
+    <item
+        android:id="@+id/facts"
+        android:title="@string/facts"
+        android:icon="@drawable/ic_action_facts"/>
+    <item
+        android:id="@+id/faqs"
+        android:title="@string/faqs"
+        android:icon="@drawable/ic_action_faqs"/>
+    <item
+        android:id="@+id/aboutApp"
+        android:title="@string/about_app"
+        android:icon="@drawable/ic_action_aboutapp"/>
+    <item
+        android:id="@+id/aboutDeveloper"
+        android:title="@string/about_developer"
+        android:icon="@drawable/ic_action_aboutdev" />
+    <item
+        android:id="@+id/profile"
+        android:title="@string/your_profile"
+        android:icon="@drawable/ic_action_profile"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_action_logout"/>
+</group>
+
+</menu>

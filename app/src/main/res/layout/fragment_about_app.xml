@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutAppFragment"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/txtHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the App"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgLogo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-59dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_below="@id/imgLogo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bf360c"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="This application is made to promote the concept of Contact Tracing.The app can store name of the persons you have met in a day.You can also see your previous day data.The app has a FAQ information page to help you to understand the concept of Contact Tracing."/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

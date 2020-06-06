@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PreviousActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#e65100"
+        android:textSize="30sp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/txtMessage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtDate"/>
+    <TextView
+        android:id="@+id/txtMessage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage1"/>
+    <TextView
+        android:id="@+id/txtMessage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage2"/>
+    <TextView
+        android:id="@+id/txtMessage4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage3"/>
+    <TextView
+        android:id="@+id/txtMessage5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage4"/>
+    <TextView
+        android:id="@+id/txtMessage6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage5"/>
+    <TextView
+        android:id="@+id/txtMessage7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage6"/>
+    <TextView
+        android:id="@+id/txtMessage8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage7"/>
+    <TextView
+        android:id="@+id/txtMessage9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage8"/>
+    <TextView
+        android:id="@+id/txtMessage10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtMessage9"/>
+
+
+
+
+</RelativeLayout>

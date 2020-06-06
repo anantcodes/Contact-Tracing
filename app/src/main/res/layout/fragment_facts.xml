@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FactsFragment"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="          Facts"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="People in close contact with someone who is infected with a virus, such as the Ebola virus, are at higher risk of becoming infected themselves, and of potentially further infecting others.
+
+Closely watching these contacts after exposure to an infected person will help the contacts to get care and treatment, and will prevent further transmission of the virus.
+
+This monitoring process is called contact tracing, which can be broken down into 3 basic steps:
+
+Contact identification: Once someone is confirmed as infected with a virus, contacts are identified by asking about the person’s activities and the activities and roles of the people around them since onset of illness. Contacts can be anyone who has been in contact with an infected person: family members, work colleagues, friends, or health care providers.
+
+Contact listing: All persons considered to have contact with the infected person should be listed as contacts. Efforts should be made to identify every listed contact and to inform them of their contact status, what it means, the actions that will follow, and the importance of receiving early care if they develop symptoms. Contacts should also be provided with information about prevention of the disease. In some cases, quarantine or isolation is required for high risk contacts, either at home, or in hospital.
+
+Contact follow-up: Regular follow-up should be conducted with all contacts to monitor for symptoms and test for signs of infection."
+android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

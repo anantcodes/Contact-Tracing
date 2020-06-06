@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.TodayActivity">
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_entering_below"
+        android:textColor="#d50000"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#e65100"
+        android:textSize="30sp"
+        android:layout_below="@id/txtText"/>
+
+    <EditText
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtDate"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName1"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName2"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName3"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName4"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName5"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName6"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName7"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName8"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/txtName10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a name"
+        android:layout_below="@+id/txtName9"
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/txtName10"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/btnAdd"/>
+
+
+
+</RelativeLayout>

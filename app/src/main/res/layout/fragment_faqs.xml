@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment.FaqsFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is contact tracing?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#bf360c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A process where public health care workers work with a patient to help them recall — that is, trace the history of — everyone with whom they've had close contact during the time frame when they may have been [or became] infectious with a disease. The aim is to contain COVID-19 and keep the disease from spreading further.
+
+Tracers are trained to collect information about the spread of the disease. This data is placed in state-of-the-art software and allows experts to follow the spread of infection. Health officials will place an emphasis on areas with the greatest level of infection and on regions ready to reopen under the state guidelines."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How does contact tracing work?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#bf360c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Once a timeline is established, health care workers notify all of those who’ve been in close contact with the infected person to let them know they may have been exposed. In order to protect personal privacy, the identity of the infected person is not disclosed. State officials say all personal information will be kept strictly confidential and protected as a medical record."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What happens next?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#bf360c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All of those who’ve had known contact with the infected person are then provided with “education, information, and support to understand their risk,” the CDC said, and are advised on “what they should do to separate themselves from others who are not exposed, monitor themselves for illness, and the possibility that they could spread the infection to others even if they themselves do not feel ill.”"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What’s the benefit of knowing?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#bf360c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It can help prevent the further spread of infection if those already exposed to the virus avoid future contact with those who haven't been exposed to it."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What’s the ultimate goal of contact tracing?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#bf360c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It's simple: to flatten the curve. Knowing you’ve had contact with someone who’s tested positive means you can take precautions to help prevent infecting someone else. It’s not rocket science, but really just basic good medical practice — and good citizenship.                                                                                             "
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
+</ScrollView>

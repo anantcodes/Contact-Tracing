@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Contact Tracing</string>
+    <string name="home">Home</string>
+    <string name="previous_records">Previous Records</string>
+    <string name="other_people">Other People</string>
+    <string name="facts">Facts</string>
+    <string name="faqs">FAQs</string>
+    <string name="about_app">About App</string>
+    <string name="about_developer">About Developer</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="logout">Logout</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="contact_tracing">Contact Tracing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="others">Others</string>
+
+    <string name="faq">Faq</string>
+
+    <string name="about_developer1">About developer</string>
+    <string name="profile">Profile</string>
+    <string name="click_to_begin_today_s_entry">Click to begin today\'s entry</string>
+    <string name="start_entering_below">Start entering below</string>
+    <string name="preference_file_name">My Preferences</string>
+<string name="preference_save">Save Preferences</string>
+</resources>
